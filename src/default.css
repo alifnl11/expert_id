@@ -138,41 +138,50 @@ img{
 }
 
 @media screen and (max-width: 768px){
-    .nav_menu{
+    .nav__menu{
         position: fixed;
         top: var(--header-height);
-        right: 0;
+        right: -100%;
         width: 80%;
         height: 100%;
         padding: 2rem;
         background-color: var(--white-color);
-        transition: .5;
+        transition: .5s;
     }
 }
 
-.nav_item{
+.nav__item{
     margin-bottom: var(--mb-4);
 }
 
-.nav_link{
+.nav__link{
     color: var(--dark-color);
     font-weight: var(--font-semi);
 }
 
-.nav_link:hover{
+.nav__link:hover{
     color:  var(--first-color);
 }
 
-.nav_logo{
+.nav__logo{
     font-weight: var(--font-bold);
 }
 
-.nav_cart{
+.nav__cart{
     font-size: 1.5rem;
     margin-right: var(--mb-2);
 }
 
-.nav_toggle{
+.nav__toggle{
     font-size: 1.5rem;
     cursor: pointer;
+}
+
+/* Show Menu */
+.show{
+    right: 0;
+}
+
+.active{
+    color:  var(--first-color);
 }
