@@ -19,7 +19,7 @@ function App() {
         <section className="home" id="home">
             <div className="home__container bd-grid">
                 <div className="home__data">
-                    <h1 className="home__tittle">NEW<br></br><span>ARRIVAL</span></h1>
+                    <h1 className="home__title">NEW<br></br><span>ARRIVAL</span></h1>
                     <a href="#featured" className="button">GO SHOPPING</a>
                 </div>
 
@@ -104,6 +104,18 @@ function App() {
                     </div>  
                 </div>
 
+            </div>
+        </section>
+
+        {/* OFFER */}
+        <section class="offer section">
+            <div  class="offer__bg">
+                <div class="offer__data">
+                    <h2 class="offer__title">Special Offer</h2>
+                    <p class="offer__description">Special offers discounts up to 20% only at 11.11 party flash sale</p>
+
+                    <a href="#" class="button">SHOP NOW</a>
+                </div>
             </div>
         </section>
 
