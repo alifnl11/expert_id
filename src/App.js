@@ -10,6 +10,7 @@ import SyalIPB from './assets/img/syalipb.png';
 import PaketHemat from './assets/img/pakethemat.png';
 import Cumlaude from './assets/img/cumlaude.png';
 
+
 function App() {
   return (
     <div className="App">
@@ -119,6 +120,41 @@ function App() {
             </div>
         </section>
 
+        {/* NEW ARRIVAL */}
+        <section class="new section" id="new">
+            <h2 class="section-title">NEW ARRIVALS</h2>
+            <a href="#" class="section-all">View All</a>
+
+            <div class="new__container bd-grid">
+                <div class="new__box">
+                    <img src={JubahS2} alt="" class="new__img"></img>
+                    <div class="new__link">
+                        <a href="#" class="button">VIEW PRODUCT</a>
+                    </div>
+                </div>
+
+                <div class="new__box">
+                    <img src={Cumlaude} alt="" class="new__img"></img>
+                    <div class="new__link">
+                        <a href="#" class="button">VIEW PRODUCT</a>
+                    </div>
+                </div>
+
+                <div class="new__box">
+                    <img src={PaketHemat} alt="" class="new__img"></img>
+                    <div class="new__link">
+                        <a href="#" class="button">VIEW PRODUCT</a>
+                    </div>
+                </div>
+
+                <div class="new__box">
+                    <img src={SyalIPB} alt="" class="new__img"></img>
+                    <div class="new__link">
+                        <a href="#" class="button">VIEW PRODUCT</a>
+                    </div>
+                </div>
+            </div>
+        </section>
       </main>
     </div>
   );
