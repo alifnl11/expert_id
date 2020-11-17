@@ -341,5 +341,6 @@ img{
 
 .offer__description{
     margin-bottom: var(--mb-2);
+    margin-left: var(--mb-2);
     letter-spacing: .2rem;
 }
