@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './components/Header';
+import Header from './components/Header/index';
 import './default.css';
 import './main.js';
 import FotoIgo from './assets/img/toga2.png';
@@ -9,10 +9,11 @@ import JubahS2 from './assets/img/jubahs2.png';
 import SyalIPB from './assets/img/syalipb.png';
 import PaketHemat from './assets/img/pakethemat.png';
 import Cumlaude from './assets/img/cumlaude.png';
-import logo1 from './assets/img/logo1.png'
-import logo2 from './assets/img/logo2.png'
-import logo3 from './assets/img/logo3.png'
-import logo4 from './assets/img/logo4.png'
+import logo1 from './assets/img/logo1.png';
+import logo2 from './assets/img/logo2.png';
+import logo3 from './assets/img/logo3.png';
+import logo4 from './assets/img/logo4.png';
+import Footer from './components/Footer/index';
 
 
 function App() {
@@ -197,7 +198,7 @@ function App() {
 
             </div>
         </section>
-
+      <Footer />
       </main>
     </div>
   );
