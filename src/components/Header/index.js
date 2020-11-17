@@ -7,7 +7,7 @@ const Header = props => {
         <header class="l-header">
           <nav class="nav bd-grid">
             <div>
-              <a href="#" class="nav__logo">Expert.id</a>
+              <a href="#" class="nav__logo">expert.id</a>
             </div>
 
             <div class="nav__menu" id="nav-menu">
