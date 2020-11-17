@@ -9,6 +9,10 @@ import JubahS2 from './assets/img/jubahs2.png';
 import SyalIPB from './assets/img/syalipb.png';
 import PaketHemat from './assets/img/pakethemat.png';
 import Cumlaude from './assets/img/cumlaude.png';
+import logo1 from './assets/img/logo1.png'
+import logo2 from './assets/img/logo2.png'
+import logo3 from './assets/img/logo3.png'
+import logo4 from './assets/img/logo4.png'
 
 
 function App() {
@@ -168,6 +172,29 @@ function App() {
                         <a href="#" class="button">SUBSCRIBE</a>
                     </form>
                 </div>
+            </div>
+        </section>
+
+        {/* SPONSOR */}
+        <section class="sponsors section">
+            <div class="sponsors__container bd-grid">
+
+              <div class="sponsors__logo">
+                  <img src={logo1} alt=""></img>
+              </div>
+
+              <div class="sponsors__logo">
+                  <img src={logo2} alt=""></img>
+              </div>
+
+              <div class="sponsors__logo">
+                  <img src={logo3} alt=""></img>
+              </div>
+
+              <div class="sponsors__logo">
+                  <img src={logo4} alt=""></img>
+              </div>
+
             </div>
         </section>
 
