@@ -25,6 +25,15 @@ const Footer = props => {
                 </div>
 
                 <div class="footer__box">
+                    <h3 class="footer__title">OUR SERVICE</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Free Shiping</a></li>
+                        <li><a href="#" class="footer__link">Ready Stock</a></li>
+                        <li><a href="#" class="footer__link">Gift Cards</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__box">
                     <h3 class="footer__title">FOLLOW</h3>
                     <a href="#" class="footer__social"><box-icon type='logo' name='facebook-circle'></box-icon></a>
                     <a href="#" class="footer__social"><box-icon name='instagram' type='logo' ></box-icon></a>
